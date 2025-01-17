@@ -1,0 +1,50 @@
+.text-center {
+    text-align: center;
+  }
+  
+  .bg-red {
+    background-color: red;
+  }
+  
+  .mx-auto {
+    margin: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .flex-md {
+      display: flex;
+    }
+    .flex-col-md {
+      flex-direction: column;
+    }
+    .items-center-md {
+      align-items: center;
+    }
+  }
+  

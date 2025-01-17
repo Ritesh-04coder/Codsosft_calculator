@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me! - A calculator made by me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-zinc-700 text-white min-h-screen flex items-center justify-center">
+  <div class="container flex flex-col items-center mx-auto max-w-md bg-gray-800 p-6 rounded-lg shadow-lg">
+    <h1 class="text-center text-3xl font-bold mb-4">Calculator</h1>
+    <div class="row mb-4">
+      <input class="input w-full p-2 rounded-md text-black" type="text" />
+    </div>
+    <div class="row grid grid-cols-4 gap-2">
+      <button class="button bg-red-600 hover:bg-red-700 text-white p-2 rounded-md">C</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">%</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">M+</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">M-</button>
+
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">7</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">8</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">9</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">*</button>
+
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">4</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">5</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">6</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">/</button>
+
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">1</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">2</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">3</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">+</button>
+
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md col-span-2">0</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">.</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">=</button>
+      <button class="button bg-gray-600 hover:bg-gray-700 text-white p-2 rounded-md">-</button>
+    </div>
+  </div>
+  <script src="cal.js"></script>
+</body>
+
+</html>
